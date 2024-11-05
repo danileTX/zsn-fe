@@ -20,15 +20,20 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
-      "@src": ["src/"],
-      "@src/*": ["src/*"]
+      "@src": [
+        "src/"
+      ],
+      "@src/*": [
+        "src/*"
+      ]
     }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "src/util/metamask.util.js"  ],
+    "**/*.tsx",
+    "src/util/metamask.util.js",
+  ],
   "exclude": [
     "node_modules"
   ],
